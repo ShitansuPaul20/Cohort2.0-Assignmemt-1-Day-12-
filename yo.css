@@ -1,0 +1,57 @@
+@font-face {
+    font-family: lol;
+    src: url(./ProgressPersonalUse-EaJdz.ttf);
+}
+@font-face {
+    font-family: lololo;
+    src: url(https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348316f_PPNeueMachina%5C%20Light.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    background:url(./comeback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    font-family: lololo;
+    color: white;
+    font-size: 70px;
+    margin: 70px 40px 1px 0;
+    text-align: end;
+    font-weight: 600;
+}
+.back{
+    margin: 0 20px 20px 0;
+    color: white;
+    font-size: 140px;
+    text-align: end;
+    font-family: lol;
+}
+.button{
+    background-color: rgb(58, 107, 150);
+    color: aliceblue;
+    width: 170px;
+    height: 60px;
+    margin: 180px 50px 0 1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #29323A;
+    box-shadow: 2px 1.2px 10px #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 23px;
+    font-family: 'poppins';
+}
